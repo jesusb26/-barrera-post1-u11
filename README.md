@@ -5,9 +5,9 @@
 | Métrica | Antes de refactorizar (1er análisis) | Después de refactorizar (2º análisis) | Mejora |
 |---------|--------------------------------------|----------------------------------------|--------|
 | **Complejidad Ciclomática** del método `procesarPedido` | ~8 (estimado, por 12 parámetros) | 1 (cada método extraído ≤ 2) | ↓ 87% |
-| **Code Smells totales** | 3 (1 Blocker, 2 Medium) | 1 (Medium: parámetro no usado) | ↓ 66% |
-| **Cobertura de pruebas** | No disponible | ~5.9% (según historial) | — |
-| **Líneas de código** | ~186 (primera captura) | 289 | +103 (por nuevas clases) |
+| **Code Smells totales** | 6 | 3 | ↓ 50% |
+| **Cobertura de pruebas** | ~5.9% | ~5.0% | — |
+| **Líneas de código** | ~186 | 289 | +103 (por nuevas clases) |
 | **Parámetros en `procesarPedido`** | 12 | 6 | ↓ 50% |
 
 > **Nota**: Los valores iniciales se obtuvieron del primer análisis (captura `issues-inicial.png` donde se reporta un método con 12 parámetros y severidad Blocker). La cobertura inicial no se muestra en las capturas.
